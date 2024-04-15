@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b1b1b;
+    gap: 10px;
+}
+
+#calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5%;
+    height: 580px;
+    width: 400px;
+    background-color: #fafafa;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    background-color: #fafafa;
+}
+
+input[type=number], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    background-color: #fafafa;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 4px;
+}
+
+#margin {
+    margin-bottom: 7%;
+}
+
+button {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
