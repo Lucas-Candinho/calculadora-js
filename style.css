@@ -55,3 +55,9 @@ button {
     margin: 8px 0;
 }
 
+#resultado-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
