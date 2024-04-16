@@ -31,7 +31,7 @@ function calcularConta() {
         }
     
     // Caso o navegador permita a inserção de letras no campo number (ex.: Firefox)
-    if (isNaN) {
+    if (isNaN(primeiroNumero) || isNaN(segundoNumero)) {
        resultado = "Não insira letras"
     }
 
