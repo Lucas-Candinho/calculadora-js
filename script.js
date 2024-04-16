@@ -19,16 +19,21 @@ function calcularConta() {
             if (segundoNumero) {
                 resultado = primeiroNumero / segundoNumero;
             } else {
-                alert("Não se pode dividir por zero")
+                resultado = "Não se pode dividir por zero";
             }
             break;
         case "*":
             resultado = primeiroNumero * segundoNumero;
             break;
         default:
-            alert("Operação Inválida")
+            resultado = "Operação Inválida";
             break;
         }
-        
+    
+    // Caso o navegador permita a inserção de letras no campo number (ex.: Firefox)
+    if (isNaN) {
+       resultado = "Não insira letras"
+    }
+
     document.getElementById('resultado').innerHTML = resultado;
 }
