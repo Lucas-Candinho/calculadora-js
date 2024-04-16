@@ -1,6 +1,7 @@
 function calcularConta() {
 
     var resultado = null;
+    // ParseFloat pega um float ao invés de um int, permitindo calculos com números decimais
     var primeiroNumero = parseFloat(document.getElementById('primeiro-numero').value);
     var sinal = document.getElementById('operacao');
     sinal = sinal.options[sinal.selectedIndex].text;
